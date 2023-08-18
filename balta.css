@@ -1,0 +1,75 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.stranica{
+    
+}
+
+.posebna-stranica{
+    width: 80%;
+    margin: 0px auto;
+    border: 1px solid black;
+}
+
+#prva-strana{
+    height: 100vh;
+    background-color: #111171;
+}
+
+.navigacija{
+    margin-top: 5%;
+    width: 100%;
+    height: 5%;
+    background-color: black;
+    display: flex;
+}
+
+.ostatak{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    
+}
+
+.logo{
+    flex-grow: 1;
+    background-color: green;
+
+    height: 100%;
+
+}
+
+.ikonice{
+    flex-grow: 1;
+    background-color: yellow; 
+    height: 100%;
+}
+
+.logoiikone{
+    flex-grow: 1;
+    background-color: red;
+    height: 100%;
+}
+
+.ikonice p{
+    color: red;
+}
+
+.ikonice p:hover{
+    color: white;
+}
+
+.stranica .logo{
+    background-color: blue;
+}
+
+.stranica .posebna-stranica .navigacija .ikonice{
+    background-color: aqua;
+}
+
+.ikonice,  
+.logoiikone{
+    background-color: pink;
+}
